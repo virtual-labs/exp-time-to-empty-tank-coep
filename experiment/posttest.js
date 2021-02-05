@@ -89,22 +89,35 @@
 
 
     const myQuestions = [{
-            question: "1.This is a sample question:", ///// Write the question inside double quotes
+            question: "Estimate the time required to empty the tank. Tank configuration is as - Tank radius = 1 m, Tank height = 1 m, Pipe diameter = 15 mm", ///// Write the question inside double quotes
             answers: {
-                a: "This is a sample answer A", ///// Write the option 1 inside double quotes
-                b: "This is a sample answer B", ///// Write the option 2 inside double quotes
+				a: "6.14 hrs", ///// Write the option 1 inside double quotes
+                b: "6.15 hrs", ///// Write the option 2 inside double quotes
+                c: "6.16 hrs",
+                d: "6.17 hrs",
             },
-            correctAnswer: "a" ///// Write the correct option inside double quotes
+            correctAnswer: "b" ///// Write the correct option inside double quotes
         },
 
     {
-      question: "<img src='images/8.PNG'><br>Identify the location of Secondary electron detector",  ///// Write the question inside double quotes
-      answers: {
-        a: "<img src='images/1b.png'>",                  ///// Write the option 1 inside double quotes
-        b: "<img src='images/1a.png'>",                  ///// Write the option 2 inside double quotes
-        c: "<img src='images/1c.PNG'>",      },
-      correctAnswer: "c"                ///// Write the correct option inside double quotes
-    },
+            question: "Estimate the time required to empty the tank. Tank configuration is as - Tank radius = 20 m, Tank height = 10 m, Pipe diameter = 50 mm", ///// Write the question inside double quotes
+            answers: {
+				a: "313.38 hrs", ///// Write the option 1 inside double quotes
+                b: "333.33 hrs", ///// Write the option 2 inside double quotes
+                c: "310.38 hrs",
+                d: "338.13 hrs",
+            },
+            correctAnswer: "a" ///// Write the correct option inside double quotes
+        },{
+            question: "Estimate the time required to empty the tank. Tank configuration is as - Tank radius = 10.7 m, Tank height = 20 m, Pipe diameter = 100 mm", ///// Write the question inside double quotes
+            answers: {
+				a: "71.31 hrs", ///// Write the option 1 inside double quotes
+                b: "13.17 hrs", ///// Write the option 2 inside double quotes
+                c: "31.71 hrs",
+                d: "17.13 hrs",
+            },
+            correctAnswer: "c" ///// Write the correct option inside double quotes
+        },
 
 
         
