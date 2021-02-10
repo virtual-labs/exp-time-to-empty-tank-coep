@@ -89,22 +89,53 @@
 
 
      const myQuestions = [{
-            question: "1.This is a sample question:", ///// Write the question inside double quotes
+            question: "What is also called as open loop control system?", ///// Write the question inside double quotes
             answers: {
-                a: "This is a sample answer A", ///// Write the option 1 inside double quotes
-                b: "This is a sample answer B", ///// Write the option 2 inside double quotes
+				a: "Feedback control system", ///// Write the option 1 inside double quotes
+                b: "Non-feedback control system", ///// Write the option 2 inside double quotes
+                c: "Feed forward control system",
+                d: "Feed reverse control system",
             },
-            correctAnswer: "a" ///// Write the correct option inside double quotes
+            correctAnswer: "b" ///// Write the correct option inside double quotes
         },
 
     {
-      question: "<img src='images/8.PNG'><br>Identify the location of Secondary electron detector",  ///// Write the question inside double quotes
-      answers: {
-        a: "<img src='images/1b.png'>",                  ///// Write the option 1 inside double quotes
-        b: "<img src='images/1a.png'>",                  ///// Write the option 2 inside double quotes
-        c: "<img src='images/1c.PNG'>",      },
-      correctAnswer: "c"                ///// Write the correct option inside double quotes
-    },
+            question: "What is also called as close loop control system?", ///// Write the question inside double quotes
+            answers: {
+				a: "Feedback control system", ///// Write the option 1 inside double quotes
+                b: "Non-feedback control system", ///// Write the option 2 inside double quotes
+                c: "Feed forward control system",
+                d: "Feed reverse control system",
+            },
+            correctAnswer: "a" ///// Write the correct option inside double quotes
+        },{
+            question: "Coefficient of velocity increases with", ///// Write the question inside double quotes
+            answers: {
+				a: "Decreases with height of liquid level", ///// Write the option 1 inside double quotes
+                b: "Increases first and then decreases with liquid level", ///// Write the option 2 inside double quotes
+                c: "Increases with height of liquid level",
+                d: "Remains constant",
+            },
+            correctAnswer: "c" ///// Write the correct option inside double quotes
+        },{
+            question: "Coefficient of discharge increases with ", ///// Write the question inside double quotes
+            answers: {
+				a: "Increasing the convergent angle", ///// Write the option 1 inside double quotes
+                b: "Keeping constant the convergent angle", ///// Write the option 2 inside double quotes
+                c: "Lowering the convergent angle",
+                d: "None of these",
+            },
+            correctAnswer: "c" ///// Write the correct option inside double quotes
+        },{
+            question: "Which element controls the process?", ///// Write the question inside double quotes
+            answers: {
+				a: "Input", ///// Write the option 1 inside double quotes
+                b: "Output", ///// Write the option 2 inside double quotes
+                c: "Amplifier",
+                d: "Controller",
+            },
+            correctAnswer: "d" ///// Write the correct option inside double quotes
+        },
 
 
 
